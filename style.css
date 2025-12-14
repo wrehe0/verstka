@@ -1,0 +1,93 @@
+h1 h2 h3 h4 h5 h6 p{
+    margin: 0;
+}
+/*header*/
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+.button-linkout{
+    width: 127px;
+    height: 47px;
+    padding-top: 14px;
+    color: white;
+    background-color: #485C11;
+    border-radius: 25px;
+    background-color: #485C11;
+    padding: 14px;
+}
+.area{
+    padding-top: 14px;
+    width: 50px;
+    height: 26px;
+}
+.container{
+    position: relative;
+    box-sizing: border-box;
+    max-width: 90%;
+    width: auto;
+    margin: 0 auto;
+}
+/*body*/
+.browse{
+    font-size: 10vw;
+    text-align: center;
+}
+.table{
+    width: 100%;
+}
+.partners{
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
+.trusted{
+    opacity: 50%;
+}
+.provides{
+    opacity: 50%;
+}
+.benefits{
+    margin-top: 80px;
+}
+.part{
+    margin:20px;
+}
+.bene{
+    margin-bottom: 50px;
+}
+.we{
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.block{
+    padding-top: 40px;
+    width: 265px;
+    height: 250px;
+    border-top: 1px solid lightgray;
+}
+.text{
+    font-size: 15px;
+    opacity: 60%;
+}
+.advantages{
+    justify-content: space-between;
+    margin-top: 90px;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+.gora{
+    width: 100%;
+}
