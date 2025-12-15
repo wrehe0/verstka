@@ -31,6 +31,7 @@ nav{
     max-width: 90%;
     width: auto;
     margin: 0 auto;
+    
 }
 /*body*/
 .browse{
@@ -90,4 +91,75 @@ nav{
 }
 .gora{
     width: 100%;
+    margin-bottom: 120px;
+}
+ul{
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.numbers{
+    opacity: 70%;
+    padding-right: 30px;
+    font-size: 17px;
+}
+.bigpicture{
+    width: 100%;
+    margin-top: 60px;
+}
+.element{
+    display: flex;
+    align-items: center; 
+    width: 100%;
+    border-top: 1px solid lightgray;
+}
+.button-discover{
+    color: black;
+    background-color: #DFECC6;
+    border-radius: 25px;
+    background-color: #DFECC6;
+    width: 138px;
+    height: 47px;
+    border-color: #DFECC6;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.new-block{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    margin-bottom: 120px;
+    gap:20px
+}
+.figura{
+    width: 100%;
+    
+
+}
+.new-text{
+    width: 460px;
+    margin-right: 80px;
+}
+.specs{
+    padding-top: 80px;
+    text-align: center;
+    width: 90%;
+    border-top: 1px solid lightgray;
+    
+    
+}
+.mini-specs{
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.why{
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.need{
+    margin-bottom: 40px;
+    
+
 }
