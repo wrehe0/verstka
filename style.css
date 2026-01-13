@@ -1,6 +1,24 @@
 .another-browser{
     opacity: 70%;
 }
+.button-learn:hover{
+    background-color: #61752b;
+}
+.button-linkout:hover{
+     background-color: #61752b;
+}
+.button-discover:hover{
+    background-color: #bedc86;
+}
+.part:hover{
+    transform: scale(1.4);
+}
+img{
+    transition: 1s;
+}
+img:hover{
+    transform: scale(1.2);
+}
 @media(min-width:1280px)
 {
     h1 h2 h3 h4 h5 h6 p{
@@ -295,9 +313,9 @@ th , td{
     border-top: 1px solid lightgray;
     padding-top: 120px;
     padding-bottom: 120px;
-    border-bottom: 1px solid lightgray;
-    
+    border-bottom: 1px solid lightgray;    
 }
+/* footer*/
 .footer-nav{
     display: flex;
     gap:27px;
@@ -317,7 +335,7 @@ th , td{
     display: flex;
     margin-left: 40px;
     gap: 16px;
-    padding-right: 73%;
+    justify-content: center;
     
 }
 .down-area-year-all{
@@ -325,6 +343,11 @@ th , td{
     margin: 0px;
     opacity: 70%;
     margin-left: 40px;
+}
+.down-area-all-text{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 }
 @media(max-width:1279px){
@@ -405,6 +428,7 @@ nav{
     margin-top: 80px;
 }
 .part{
+    transition: 3s;
     margin:20px;
 }
 .bene{
@@ -414,10 +438,13 @@ nav{
     font-size: 60px;
     margin-bottom: 50px;
 }
+.block:last-child{
+    margin-bottom: 80px;
+}
 .block{
     padding-top: 40px;
-    width: 265px;
-    height: 250px;
+    /**width: 265px;
+    height: 250px;**/
     border-top: 1px solid lightgray;
 }
 .text{
@@ -633,41 +660,36 @@ th , td{
     opacity: 70%;
 }
 .footer-nav{
+    display: flex;
     gap:27px;
     margin-bottom: 80px;
-    
 }
 .down-area{
     display: flex;
-    width: 100%;
-    max-height: 70px;
+    
 }
 .down-area-year{
-    
+    padding-top: 52px;
     margin: 0px;
     opacity: 70%;
     
 }
 .down-area-year-block{
     display: flex;
-    margin-left: 20%;
+    margin-left: 40px;
     gap: 16px;
-    
+    justify-content: center;
     
 }
 .down-area-year-all{
-    padding-left: 70%;
+    padding-top: 52px;
     margin: 0px;
     opacity: 70%;
-    
-    
+    margin-left: 40px;
 }
-.down-area-year , .down-area-year-all{
-    padding-bottom: 50%;
-    
- }   
-.black-man{
-    height: 70px;
+.down-area-all-text{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
-
 }
